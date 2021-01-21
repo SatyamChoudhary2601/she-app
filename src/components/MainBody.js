@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import TinderCard from "react-tinder-card";
 import "./MainBody.css";
 import { isMobile } from "react-device-detect";
-import { IconButton } from '@material-ui/core';
-
-
+import { IconButton } from "@material-ui/core";
+import { Link } from "react-router-dom";
 import CakeIcon from "@material-ui/icons/Cake";
-import MusicNoteIcon from "@material-ui/icons/MusicNote";
+import ForumIcon from "@material-ui/icons/Forum";
 import WishMe from "./WishMe";
 
 function MainBody() {
@@ -242,6 +241,7 @@ function MainBody() {
   ]);
   const [wish, setWish] = useState(false);
   const [cake, setCake] = useState(false);
+  // const [msg, setMsg] = useState(false);
 
   const wishHandler = () => {
     setWish(!wish);
@@ -252,6 +252,9 @@ function MainBody() {
     setCake(!cake);
     setWish(null);
   };
+  // const messageHandler = () => {
+  //   setMsg(true)
+  // }
 
   console.log(photos);
   if (isMobile) {
@@ -260,7 +263,9 @@ function MainBody() {
         {!wish && !cake && (
           <>
             <span style={{ textAlign: "center" }}>
-              <h5>Happy Birthday in 35 Language</h5>
+              <h5 style={{ color: "teal" }}>
+                <strong>Happy Birthday</strong> in 35 Languages
+              </h5>
               <p>Swipe Card - Left or Right</p>{" "}
             </span>
           </>
@@ -325,7 +330,9 @@ function MainBody() {
             </button>
           </IconButton>
           <IconButton>
-            <MusicNoteIcon className="music__button" />
+            <Link to="/message">
+              <ForumIcon className="music__button" />
+            </Link>
           </IconButton>
         </div>
       </div>

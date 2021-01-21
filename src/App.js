@@ -5,6 +5,7 @@ import MainBody from "./components/MainBody";
 import Welcome from "./components/Welcome";
 import Header from "./components/Header";
 import Video from "./components/Video";
+import Message from "./components/Message";
 // import CardFlip from "./components/Card/CardFlip";
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
         <Route exact path="/" component={Welcome} />
         <Route path="/swipe" component={MainBody} />
         <Route path="/video" component={Video} />
-        {/* <Route path="/card" component={CardFlip} /> */}
+        <Route path="/message" component={Message} />
       </Router>
     </div>
   );

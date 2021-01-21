@@ -117,5 +117,11 @@ body {
   color: cadetblue;
 }
 .music__button {
-  color: chocolate;
+  color: red;
+}
+
+.main_div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }

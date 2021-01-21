@@ -13,6 +13,7 @@ const Welcome = () => {
   const volumeHandler = () => {
     setIsMuted(true);
   };
+  
   if (isMuted) {
     videoRef.current.muted = !isMuted;
   }
