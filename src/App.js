@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-        <Route exact path="/" component={Welcome} />
+        <Route exact path="/she-app" component={Welcome} />
         <Route path="/swipe" component={MainBody} />
         <Route path="/video" component={Video} />
         {/* <Route path="/card" component={CardFlip} /> */}
