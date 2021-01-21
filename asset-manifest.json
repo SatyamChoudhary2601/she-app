@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/she-app/static/css/main.b194deb5.chunk.css",
+    "main.js": "/she-app/static/js/main.ccc04755.chunk.js",
+    "main.js.map": "/she-app/static/js/main.ccc04755.chunk.js.map",
+    "runtime-main.js": "/she-app/static/js/runtime-main.a3dbdd20.js",
+    "runtime-main.js.map": "/she-app/static/js/runtime-main.a3dbdd20.js.map",
+    "static/css/2.658248ec.chunk.css": "/she-app/static/css/2.658248ec.chunk.css",
+    "static/js/2.3e33a413.chunk.js": "/she-app/static/js/2.3e33a413.chunk.js",
+    "static/js/2.3e33a413.chunk.js.map": "/she-app/static/js/2.3e33a413.chunk.js.map",
+    "static/js/3.93d8ac57.chunk.js": "/she-app/static/js/3.93d8ac57.chunk.js",
+    "static/js/3.93d8ac57.chunk.js.map": "/she-app/static/js/3.93d8ac57.chunk.js.map",
+    "index.html": "/she-app/index.html",
+    "static/css/2.658248ec.chunk.css.map": "/she-app/static/css/2.658248ec.chunk.css.map",
+    "static/css/main.b194deb5.chunk.css.map": "/she-app/static/css/main.b194deb5.chunk.css.map",
+    "static/js/2.3e33a413.chunk.js.LICENSE.txt": "/she-app/static/js/2.3e33a413.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/she-app/static/media/logo.6ce24c58.svg",
+    "static/media/swipe.b2b79aa7.mp4": "/she-app/static/media/swipe.b2b79aa7.mp4",
+    "static/media/welcome.9b3762da.mp4": "/she-app/static/media/welcome.9b3762da.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3dbdd20.js",
+    "static/css/2.658248ec.chunk.css",
+    "static/js/2.3e33a413.chunk.js",
+    "static/css/main.b194deb5.chunk.css",
+    "static/js/main.ccc04755.chunk.js"
+  ]
+}
