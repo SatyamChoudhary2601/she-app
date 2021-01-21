@@ -2,7 +2,8 @@ import React, { useEffect, useRef, useState } from "react";
 import "./MainBody.css";
 import swipe from "../components/video/swipe.mp4";
 import VolumeOffIcon from "@material-ui/icons/VolumeOff";
-import IconButton from "@material-ui/core/IconButton";
+import { IconButton } from '@material-ui/core';
+
 import VolumeUpIcon from "@material-ui/icons/VolumeUp";
 
 const Video = () => {

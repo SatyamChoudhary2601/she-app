@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import TinderCard from "react-tinder-card";
 import "./MainBody.css";
 import { isMobile } from "react-device-detect";
-import IconButton from "@material-ui/core/IconButton";
+import { IconButton } from '@material-ui/core';
+
 
 import CakeIcon from "@material-ui/icons/Cake";
 import MusicNoteIcon from "@material-ui/icons/MusicNote";

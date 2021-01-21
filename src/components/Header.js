@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import WhatshotIcon from "@material-ui/icons/Whatshot";
 import HomeIcon from "@material-ui/icons/Home";
 import VideocamIcon from "@material-ui/icons/Videocam";
-import IconButton from "@material-ui/core/IconButton";
+import { IconButton } from '@material-ui/core';
+
 import { Link } from "react-router-dom";
 import "./MainBody.css";
 const Header = () => {
